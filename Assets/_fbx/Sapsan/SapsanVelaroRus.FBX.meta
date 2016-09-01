@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: 2605ba0de5d258a4caf989cc17dbedb0
+timeCreated: 1472532988
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 'Object #0'
+    100002: 'Object #1'
+    100004: 'Object #10'
+    100006: 'Object #11'
+    100008: 'Object #12'
+    100010: 'Object #13'
+    100012: 'Object #2'
+    100014: 'Object #3'
+    100016: 'Object #4'
+    100018: 'Object #5'
+    100020: 'Object #6'
+    100022: 'Object #7'
+    100024: 'Object #8'
+    100026: 'Object #9'
+    100028: //RootNode
+    100030: Group001
+    100032: Group002
+    100034: Group003
+    100036: Group004
+    100038: 'Object #014'
+    100040: 'Object #015'
+    100042: 'Object #016'
+    100044: 'Object #017'
+    100046: 'Object #018'
+    100048: 'Object #019'
+    100050: 'Object #020'
+    100052: 'Object #021'
+    100054: 'Object #022'
+    100056: 'Object #023'
+    100058: 'Object #024'
+    100060: 'Object #025'
+    100062: 'Object #026'
+    100064: 'Object #027'
+    100066: 'Object #028'
+    100068: 'Object #029'
+    100070: 'Object #030'
+    100072: 'Object #031'
+    100074: 'Object #032'
+    100076: 'Object #033'
+    100078: 'Object #034'
+    100080: 'Object #035'
+    100082: 'Object #036'
+    100084: 'Object #037'
+    100086: 'Object #038'
+    100088: 'Object #039'
+    100090: 'Object #040'
+    100092: 'Object #041'
+    100094: 'Object #042'
+    100096: 'Object #043'
+    100098: 'Object #044'
+    100100: 'Object #045'
+    100102: 'Object #046'
+    100104: 'Object #047'
+    100106: 'Object #048'
+    100108: 'Object #049'
+    100110: 'Object #050'
+    100112: 'Object #051'
+    400000: 'Object #0'
+    400002: 'Object #1'
+    400004: 'Object #10'
+    400006: 'Object #11'
+    400008: 'Object #12'
+    400010: 'Object #13'
+    400012: 'Object #2'
+    400014: 'Object #3'
+    400016: 'Object #4'
+    400018: 'Object #5'
+    400020: 'Object #6'
+    400022: 'Object #7'
+    400024: 'Object #8'
+    400026: 'Object #9'
+    400028: //RootNode
+    400030: Group001
+    400032: Group002
+    400034: Group003
+    400036: Group004
+    400038: 'Object #014'
+    400040: 'Object #015'
+    400042: 'Object #016'
+    400044: 'Object #017'
+    400046: 'Object #018'
+    400048: 'Object #019'
+    400050: 'Object #020'
+    400052: 'Object #021'
+    400054: 'Object #022'
+    400056: 'Object #023'
+    400058: 'Object #024'
+    400060: 'Object #025'
+    400062: 'Object #026'
+    400064: 'Object #027'
+    400066: 'Object #028'
+    400068: 'Object #029'
+    400070: 'Object #030'
+    400072: 'Object #031'
+    400074: 'Object #032'
+    400076: 'Object #033'
+    400078: 'Object #034'
+    400080: 'Object #035'
+    400082: 'Object #036'
+    400084: 'Object #037'
+    400086: 'Object #038'
+    400088: 'Object #039'
+    400090: 'Object #040'
+    400092: 'Object #041'
+    400094: 'Object #042'
+    400096: 'Object #043'
+    400098: 'Object #044'
+    400100: 'Object #045'
+    400102: 'Object #046'
+    400104: 'Object #047'
+    400106: 'Object #048'
+    400108: 'Object #049'
+    400110: 'Object #050'
+    400112: 'Object #051'
+    2300000: 'Object #0'
+    2300002: 'Object #1'
+    2300004: 'Object #10'
+    2300006: 'Object #11'
+    2300008: 'Object #12'
+    2300010: 'Object #13'
+    2300012: 'Object #2'
+    2300014: 'Object #3'
+    2300016: 'Object #4'
+    2300018: 'Object #5'
+    2300020: 'Object #6'
+    2300022: 'Object #7'
+    2300024: 'Object #8'
+    2300026: 'Object #9'
+    2300028: 'Object #014'
+    2300030: 'Object #015'
+    2300032: 'Object #016'
+    2300034: 'Object #017'
+    2300036: 'Object #018'
+    2300038: 'Object #019'
+    2300040: 'Object #020'
+    2300042: 'Object #021'
+    2300044: 'Object #022'
+    2300046: 'Object #023'
+    2300048: 'Object #024'
+    2300050: 'Object #025'
+    2300052: 'Object #026'
+    2300054: 'Object #027'
+    2300056: 'Object #028'
+    2300058: 'Object #029'
+    2300060: 'Object #030'
+    2300062: 'Object #031'
+    2300064: 'Object #032'
+    2300066: 'Object #033'
+    2300068: 'Object #034'
+    2300070: 'Object #035'
+    2300072: 'Object #036'
+    2300074: 'Object #037'
+    2300076: 'Object #038'
+    2300078: 'Object #039'
+    2300080: 'Object #040'
+    2300082: 'Object #041'
+    2300084: 'Object #042'
+    2300086: 'Object #043'
+    2300088: 'Object #044'
+    2300090: 'Object #045'
+    2300092: 'Object #046'
+    2300094: 'Object #047'
+    2300096: 'Object #048'
+    2300098: 'Object #049'
+    2300100: 'Object #050'
+    2300102: 'Object #051'
+    3300000: 'Object #0'
+    3300002: 'Object #1'
+    3300004: 'Object #10'
+    3300006: 'Object #11'
+    3300008: 'Object #12'
+    3300010: 'Object #13'
+    3300012: 'Object #2'
+    3300014: 'Object #3'
+    3300016: 'Object #4'
+    3300018: 'Object #5'
+    3300020: 'Object #6'
+    3300022: 'Object #7'
+    3300024: 'Object #8'
+    3300026: 'Object #9'
+    3300028: 'Object #014'
+    3300030: 'Object #015'
+    3300032: 'Object #016'
+    3300034: 'Object #017'
+    3300036: 'Object #018'
+    3300038: 'Object #019'
+    3300040: 'Object #020'
+    3300042: 'Object #021'
+    3300044: 'Object #022'
+    3300046: 'Object #023'
+    3300048: 'Object #024'
+    3300050: 'Object #025'
+    3300052: 'Object #026'
+    3300054: 'Object #027'
+    3300056: 'Object #028'
+    3300058: 'Object #029'
+    3300060: 'Object #030'
+    3300062: 'Object #031'
+    3300064: 'Object #032'
+    3300066: 'Object #033'
+    3300068: 'Object #034'
+    3300070: 'Object #035'
+    3300072: 'Object #036'
+    3300074: 'Object #037'
+    3300076: 'Object #038'
+    3300078: 'Object #039'
+    3300080: 'Object #040'
+    3300082: 'Object #041'
+    3300084: 'Object #042'
+    3300086: 'Object #043'
+    3300088: 'Object #044'
+    3300090: 'Object #045'
+    3300092: 'Object #046'
+    3300094: 'Object #047'
+    3300096: 'Object #048'
+    3300098: 'Object #049'
+    3300100: 'Object #050'
+    3300102: 'Object #051'
+    4300000: 'Object #0'
+    4300002: 'Object #1'
+    4300004: 'Object #2'
+    4300006: 'Object #3'
+    4300008: 'Object #4'
+    4300010: 'Object #5'
+    4300012: 'Object #6'
+    4300014: 'Object #7'
+    4300016: 'Object #8'
+    4300018: 'Object #9'
+    4300020: 'Object #10'
+    4300022: 'Object #11'
+    4300024: 'Object #12'
+    4300026: 'Object #13'
+    4300028: 'Object #040'
+    4300030: 'Object #041'
+    4300032: 'Object #043'
+    4300034: 'Object #039'
+    4300036: 'Object #042'
+    4300038: 'Object #038'
+    4300040: 'Object #050'
+    4300042: 'Object #047'
+    4300044: 'Object #051'
+    4300046: 'Object #048'
+    4300048: 'Object #045'
+    4300050: 'Object #046'
+    4300052: 'Object #044'
+    4300054: 'Object #049'
+    4300056: 'Object #020'
+    4300058: 'Object #021'
+    4300060: 'Object #022'
+    4300062: 'Object #023'
+    4300064: 'Object #024'
+    4300066: 'Object #025'
+    4300068: 'Object #014'
+    4300070: 'Object #019'
+    4300072: 'Object #017'
+    4300074: 'Object #018'
+    4300076: 'Object #016'
+    4300078: 'Object #015'
+    4300080: 'Object #026'
+    4300082: 'Object #027'
+    4300084: 'Object #028'
+    4300086: 'Object #029'
+    4300088: 'Object #030'
+    4300090: 'Object #031'
+    4300092: 'Object #032'
+    4300094: 'Object #033'
+    4300096: 'Object #034'
+    4300098: 'Object #035'
+    4300100: 'Object #036'
+    4300102: 'Object #037'
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

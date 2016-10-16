@@ -1,17 +1,19 @@
-﻿using System;
+﻿
+
+using System;
 using System.Runtime.InteropServices;
 
 namespace DataSt
 {
-  
-  [StructLayout(LayoutKind.Sequential, Size = 282)]
+
+  [StructLayout(LayoutKind.Sequential, Pack = 1, Size = 282)]
   public struct Data
   {
 
     [MarshalAs(UnmanagedType.U1)]
     public byte typeTrain;
 
-    [MarshalAs(UnmanagedType.LPStr, SizeConst = 256)]
+    [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 256)]
     public string nameRailRoad;
 
     [MarshalAs(UnmanagedType.R8)]
@@ -33,7 +35,7 @@ namespace DataSt
       IntPtr buffer = Marshal.AllocHGlobal(rawSize);
       Marshal.StructureToPtr(data, buffer, false);
       byte[] rawData = new byte[rawSize];
-      Marshal.Copy(buffer,rawData,0,rawSize);
+      Marshal.Copy(buffer, rawData, 0, rawSize);
       Marshal.FreeHGlobal(buffer); //Освобождает память, выделенную ранее из неуправляемой памяти процесса.
       return rawData;
     }
@@ -44,19 +46,28 @@ namespace DataSt
       if(rawsize > rawData.Length)
         return default(Data);
 
+      Data obj = default(Data);
       IntPtr buffer = Marshal.AllocHGlobal(rawsize);
-      Marshal.Copy(rawData, 0, buffer, rawsize);
-      Data obj = (Data)Marshal.PtrToStructure(buffer, typeof(Data));
-      Marshal.FreeHGlobal(buffer); //Освобождает память, выделенную ранее из неуправляемой памяти процесса.
+
+      try
+      {
+        Marshal.Copy(rawData, 0, buffer, rawsize);
+        obj = (Data)Marshal.PtrToStructure(buffer, typeof(Data));
+      }
+      catch(Exception ex)
+      {
+        var errstring = ex.ToString();
+      }
+      finally
+      {
+        Marshal.FreeHGlobal(buffer); //Освобождает память, выделенную ранее из неуправляемой памяти процесса.
+      }
       return obj;
     }
 
-
     public override string ToString()
     {
-      string a = typeTrain.ToString() + " " + nameRailRoad.ToString() + " " + modelTime.ToString() + " " +
-                 coordinate.ToString() + " " + currentSpeed.ToString();
-      return a;
+      return string.Format("[Data: typeTrain={0}, nameRailRoad={1}, modelTime={2}, coordinate={3}, currentSpeed={4}, direction={5}]", typeTrain, nameRailRoad, modelTime, coordinate, currentSpeed, direction);
     }
   }
 }
